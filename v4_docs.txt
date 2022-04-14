@@ -1,0 +1,137 @@
+--- v4.0, 1, 2, 3, 4.x ---
+
+idea #1: building a shell around the main code that executes the generator as a function instead of a program
+i'm codenaming it "casserole dish"
+creating the file now
+moving the license agreement
+license agreement moved to shell, intro message converted to function
+converting menu/generator to function
+generator converted, making loop
+loop can ony run up to 32 bit limit, which is slightly disappointing, but then again, who would run a dumb python program 2.14 billion times without closing?
+loop is finished, testing now
+multiple errors, had to re-import colorama and rename the dish to main.py
+had to take the import code out of the generator and put it in the casserole dish
+same w/ casserole
+now i am just removing everything the shell does from the generator/casserole
+FUCK
+sorry about that, here's some context:
+i got the loop and shit to work, but here's the problem: it only generates one title for each category every time the generator opens
+
+idea #2: convert the functions themselves into loops
+currently condensing every random.choice into a single loop that runs with the generator/casserole
+deleting the copy of the lists inside of casserole and defining the values by importing the generator
+casserole has been condensed, testing in progress
+nvm, gotta condense the generator and import that to casserole
+FUCK SHIT DAMMIT
+
+idea #3: fuck it let's just turn casserole into a loop
+taking the old casserole code and putting it back in
+
+idea #4: loop exec()
+almost everything is in order now, there is just one problem: exec() can't run the 
+promble kinda fixed: had to reimport generator, I think I just have to exec just "generator" and not "generator.py"
+error from v4.3.2 beta, casserole dish v2, line 24:
+"TypeError: exec() arg 1 must be a string, bytes or code object"
+tf does that mean??? xD
+read a quick tutorial, i think i have to define generator.py as generator and exec that
+no error lines under the code, hope this works
+AAAAAAAAAAAAAAAAaaaaaaaAAAAAAaA FUCK
+
+idea #5: LOOP. THE. PROGRAM.
+indenting the entirety of casserole + the generator
+casserole and the generator are now functions
+no error lines, let's do this shit
+wtf it's not generating, it's just repeating the continue message
+just did a quick test, it is a problem with the intro/generator
+whoops, forgot to un-function the intro
+aight, v4.4.2 is about to be tested
+whoops, forgot to unindent 
+whoops, forgot to unindent the generator
+whoops, formatting issues
+ALRIGHT. v4.4.3 IS TESTING NOW.
+YEEEEEEEEEEEAAAAAHHHHH!!!!!
+the generator kinda works, a few kinks need to be smoothed out (examples: version string, casserole not working, tiktok printing after youtube, no style reset, etc.)
+the bug fixes will rollout in v4.5
+
+--- version 4.5 alpha ---
+it seems, under further investigation, that video game challenges and classic generation also print out fake disorder cringe
+new bug: tiktok doesn't work
+me when formatting issue -_-
+casserole is a whole different promble, will be fixed in 4.5.1/casserole v2.21
+
+--- casserole 2.21 ---
+just had to move some stuff around
+
+*ahem*
+YES, I DID IT, I FINALLY DID IT!
+
+--- 4.5.01 ---
+minor qol change: screen now clears after looping + overflow error handler (as if we'd have an overflow error)
+
+--- 4.5.2 ---
+minor update, includes the following content:
+- new items in the generators
+- easter egg inside cringe flavor/casserole (warning, crashes the app)
+
+--- v5.0.0 beta ---
+repl is literally breaking down under the sheer weight of the generator
+the teacher just said "penis"
+added that to the generator
+updated "Fortnite" in the beta generator to "Fortnite Chapter 3, which gives me a Tuesday deadline
+added error handler for when both of the people in a yt kids title are the same, and added error codes to the handler(s)
+error handler complete
+i need to add a major feature to make this the 5.0 update
+
+--- v5 RC ---
+idea #1: add a randomly generated ad at the beginning
+ad generator is a 5.0 feature, but will be rolled out before generator 5.0 in order to test it 
+
+--- version 5.0.0 release ---
+added in-dev features, can be accessed via the main menu with secret keywords
+rolling out changes to the stable versions
+
+--- version 6.0.0 beta ---
+rolling out movie to stable via a beta menu
+ad will stay hidden
+
+--- version 5.1.1 ---
+dug up v1 and added it
+
+--- v6 ---
+  - build 541
+    - restored version after accidental deletion
+  - build 542 -
+    - fixed a bug w/ plating that caused the generator to loop without clearing or asking the user first
+    - removed "this is a test"
+*** BETA 1 MUST BE FINISHED BY 3/9 ***
+  - build 543 -
+    - added overlays to plating
+    - currently sifting through code for bugs
+  - Beta 1 (6.0.550) -
+    - bug fixes:
+      * fixed style not resetting before thumbnail generation prompt
+      * other stuff
+    - expanded cooking flavor
+    - expanded plating
+    - expanded video game challenge generator:
+      * added more games
+      * expanded the kaizo mod modifier to have more mods (i.e. the jenny mod)
+  - Beta 1 build 1.1 (6.0.550.1) -
+    - updated license agreement
+  - Beta 1 build 2 (6.0.551) -
+    - actually an early beta 2 build
+    - added the movie studio name
+    - and oh lord that is buggy as hell
+  - Beta 2 RC1 (6.0.552) -
+    - nothing
+    - attempted bug fixes
+  - Beta 2 (6.0.555) -
+    - fixed movie generator
+    - yeah
+  - v6.0.556 -
+    - post-beta build
+    - simply a version number change to move into rc phase
+--- v6.0.0600-release ---
+  - final release of 6.0
+  - contains newly updated generators, thumbnail idea generator and more
+  - maybe the last v2 based build, might make a v6.1
